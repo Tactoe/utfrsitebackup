@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html><head>
+<title>Accueil - UndertaleFR</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/5grid/core-1200px.css">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-desktop.css">
+<link rel="stylesheet" href="css/5grid/core.css">
+<link rel="stylesheet" href="css/5grid/core-desktop.css">
+
+<script src="script/patcher.js"></script>
+<script src="script/menu.js"></script>
+</head>
+
+<body>
+<div id="header-wrapper">
+  <header id="header">
+    <div class="5grid-layout">
+      <div class="row">
+        <div class="12u" id="logo">
+          <img src="images/banniereflowey2croped.png">
+        </div>
+      </div>
+    </div>
+    <div class="5grid-layout">
+      <div class="row">
+        <div class="12u" id="menu">
+          <a href="index.html">
+            <img id="accueil" src="images/buttons/accueil.png" alt="accueil">
+          </a>
+          <a href="download.html">
+            <img id="download" src="images/buttons/telecharger.png" alt="téléchargement">
+          </a>
+          <a href="patcher.html">
+            <img id="patcher" src="images/buttons/patcher.png" alt="patcher">
+          </a>
+          <a href="equipe.html">
+            <img id="equipe" src="images/buttons/equipe.png" alt="equipe">
+          </a>
+          <a href="contact.html">
+            <img id="contact" src="images/buttons/contact.png" alt="contact">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+<div id="wrapper">
+  <div id="page">
+    <div class="5grid-layout">
+      <div class="row">
+        <div class="12u">
+          <div class="mobileUI-main-content" id="content">
+            <section>
+              <div class="post">
+                <p>Fichier du jeu de base (data.win, game.ios ou game.unx): <input type="file" id="file1">
+</p><p>Fichier .bps : <input type="file" id="file2">
+</p><p id="error" style="color: red;"></p>
+<p id="mom"></p>
+<input type="button" value="Patcher" onclick="tryPatch()">
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <div class="5grid-layout" id="copyright">
+    <div class="row">
+      <div class="12u">
+        <p>© UNDERTALE FR 2018</p>
+        <p>Tout droit sur Undertale revient à Toby Fox (<a href="http://www.undertale.com">site officiel</a>)</p>
+            <a href="https://twitter.com/UndertaleFR"><img src="images/iconetwitter.png"></a>
+            <a href="https://www.youtube.com/channel/UCKkpshjaO1di_b4ZykcFIIA"><img src="images/iconeyt.png"></a>
+      </div>
+    </div>
+  </div>
+  <div class="5grid-layout" id="flowey-background">
+  </div>
+</div>
+
+
+</body></html>
